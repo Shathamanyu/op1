@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Output-1</title>
+</head>
+<body>
+    <p>Output :</p>
+    <marquee behavior="" direction=""><p id="dem"></p></marquee>
+    <script>
+        var m5 = [3,5,10,15,23,22,25,35,56,100];
+      var m51 = []
+      for (i in m5){
+        if ( m5[i]%5 == 0){
+          m51.push(m5[i]);
+        }
+      }
+      document.getElementById("dem").innerHTML = m51;
+    </script>
+    
+</body>
+</html>
